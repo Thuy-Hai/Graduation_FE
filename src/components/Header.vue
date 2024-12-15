@@ -57,7 +57,7 @@
                     </ul>
                 </li>
                 <li v-if="userStore?.isLogged === true" class="li-root relative">
-                    <router-link to="/cv-management">profile & CV</router-link>
+                    <router-link to="/cv-management">Profile & CV</router-link>
                     <ul class="child-list absolute rounded bg-white shadow-lg min-w-[300px] px-[10px] py-[10px] max-md:hidden">
                         <router-link to="/cv-management">
                             <li class="li-widget px-[10px] text-green-400 py-[10px] rounded text-[14px] font-medium flex items-center justify-between gap-5">
@@ -93,9 +93,9 @@
                 <li class="li-root">
                     <router-link to="/about">About us</router-link>
                 </li>
-                <!-- <li class="li-root">
-                    <router-link to="/blog">Tin tức</router-link>
-                </li> -->
+                <li class="li-root">
+                    <router-link to="/blog">CV Analysis</router-link>
+                </li>
             </ul>
             <div v-if="userStore?.isLogged" class="flex items-center gap-5 max-sm:gap-2">
                 <div class="flex gap-5 md:hidden max-sm:gap-2">

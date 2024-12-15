@@ -21,14 +21,14 @@
                         v-model:value="postData.level"
                         mode="tags"
                         style="width: 100%"
-                        placeholder="Chọn level"
+                        placeholder="Choose level"
                         :options="optionLevel"
 
                     ></a-select>
                 </div>
                 <div class="flex flex-col gap-1 w-full">
                     <label for="" class="text-[13px] font-medium">rank salary<RedTick/></label>
-                    <input type="number" v-model="postData.salary" placeholder="Nhập số lượng tuyển" class="border rounded px-[10px] py-[5px] text-[14px] outline-none">
+                    <input type="number" v-model="postData.salary" placeholder="Enter salary" class="border rounded px-[10px] py-[5px] text-[14px] outline-none">
                 </div>
             </div>
             <div class="flex items-center justify-between gap-5">

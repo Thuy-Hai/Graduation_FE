@@ -19,7 +19,7 @@
         </div>
         <div class="chat-footer">
           <input v-model="newMessage" placeholder="Enter new message..."  @keydown.enter="sendMessage" />
-          <button @click="sendMessage">Gửi</button>
+          <button @click="sendMessage">Send</button>
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@
     color: white;
     border: none;
     border-radius: 50%;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
   }
   

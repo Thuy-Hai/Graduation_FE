@@ -29,7 +29,7 @@
                             v-model:value="recommendRef.type"
                             mode="tags"
                             style="width: 100%"
-                            placeholder="Chọn kỹ năng phù hợp"
+                            placeholder="Choose suitable skill"
                             :options="optionTypeJob"
                         ></a-select>
                     </div>

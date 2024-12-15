@@ -47,7 +47,7 @@
                         v-model:value="postUpdateData.type"
                         mode="tags"
                         style="width: 100%"
-                        placeholder="Chọn kỹ năng phù hợp"
+                        placeholder="Choose suitable skills"
                         :options="optionTypeJob"
                         @change="handleChange"
                     ></a-select>
