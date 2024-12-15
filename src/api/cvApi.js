@@ -49,7 +49,7 @@ export const fetchDeleteCV = async (id, token) => {
         Authorization: `Bearer ${token}`,
       },
     });
-    toast.success("Xoá thành công");
+    toast.success("Delete successful");
     return data;
   } catch (error) {
     console.log(error);

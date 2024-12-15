@@ -29,7 +29,7 @@ import { useToast } from 'vue-toastification';
 
     const handleForgotPassword = () => {
         if(!email) {
-            toast.warning("Vui lòng nhập email")
+            toast.warning("Please enter email")
         }else {
             userStore.actForgotPassword({email: email.value})
             email.value = ""

@@ -50,7 +50,7 @@ export const fetchCreatePost = async (post, token) => {
       },
     });
     if (data) {
-      toast.success("Đăng bài thành công");
+      toast.success("Posting successful");
     }
     return data;
   } catch (error) {
@@ -87,7 +87,7 @@ export const fetchDeletePost = async (id, token) => {
         Authorization: `Bearer ${token}`,
       },
     });
-    toast.success("Xoá bài thành công");
+    toast.success("Delete post successfully");
     return data;
   } catch (error) {
     console.log(error);
@@ -101,7 +101,7 @@ export const fetchUpdatePost = async (id, newPost, token) => {
         Authorization: `Bearer ${token}`,
       },
     });
-    toast.success("Cập nhật bài thành công");
+    toast.success("Update post successfully");
     return data;
   } catch (error) {
     console.log(error);
@@ -140,12 +140,12 @@ export const fetchCreateFavorite = async (id, token) => {
       },
     });
     if (data) {
-      toast.success("Thêm thành công");
+      toast.success("Add success");
     }
     return data;
   } catch (error) {
     if (error.response.status == 403) {
-      toast.warning("Bài này đã có trong danh sách lưu!");
+      toast.warning("This post is already in your save list!");
     }
     console.log(error);
   }
@@ -159,7 +159,7 @@ export const fetchDeleteFavorite = async (id, token) => {
       },
     });
     if (data) {
-      toast.success("Xoá thành công");
+      toast.success("Delete successful");
     }
     return data;
   } catch (error) {

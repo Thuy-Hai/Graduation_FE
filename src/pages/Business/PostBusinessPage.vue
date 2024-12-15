@@ -4,7 +4,7 @@
       class="px-[10px] py-[7px] bg-green-500 text-white font-semibold rounded"
       @click="isToggleFormCreate"
     >
-      Thêm bài viết
+      Add Job
     </button>
     <div
       class="flex flex-col justify-between overflow-x-auto sm:rounded-lg w-[100%]"
